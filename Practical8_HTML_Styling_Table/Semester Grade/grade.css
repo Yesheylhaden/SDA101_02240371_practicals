@@ -1,0 +1,31 @@
+h3 {
+    color: blue;
+    font-size: 50 px;
+    text-decoration: underline;
+}
+
+table, th, td {
+    border: 1px solid black; border-collapse: collapse;
+}
+
+.A{
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+
+.B{
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+}
+
+.C{
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.head{
+    text-align: center;
+}

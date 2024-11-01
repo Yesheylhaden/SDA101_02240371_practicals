@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dog API Example</title>
+    <style>
+        .dog-image {
+            width: 300px; /*Fixed width for all images */
+            height: 300px;
+            object-fit: cover;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Random Dog Images</h1>
+    <div id="dog-images-container"></div>
+    <script>
+        //make an HTTP request to the Dog API to get 10 random images
+        fetch('https://dog.ceo/api/breed/labrador/images')
+        //to convert the API response to JSON format
+        .the(response => response.json())
+
+        .then(data => {
+            const imageUrls = data.message;
+            const container = document.getElementById('dog-images-container');
+            imageUrls,forEach(url => {
+                const img = document.createElement('img');
+                img.src = url;
+                img.alt = 'Random Dog Image';
+                img.classList.add('dog-image');
+                container.appendChild(img);
+            }); 
+        })
+
+        .catch(error => {
+            console.error('Error;'.error);
+        }
+        
+        )
+    </script>
+</body>
+</html>

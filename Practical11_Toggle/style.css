@@ -1,0 +1,107 @@
+body {
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    transition: background 200ms ease 300ms;
+  }
+  
+  body:has(.toggle[aria-checked=true]) {
+    background: green;
+  }
+  
+  .toggle {
+    background: white;
+    border: 0;
+    width: 132px;
+    height: 70px;
+    border-radius: 999px;
+    padding: 4px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .toggle-circle {
+    background: red;
+    width: 62px;
+    height: 62px;
+    border-radius: 999px;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    will-change: left, transform, background;
+    
+    animation: slideOff 500ms ease 0;
+  }
+  
+  .toggle.touched .toggle-circle {
+    animation-iteration-count: 1;
+  }
+  
+  .toggle[aria-checked=true] .toggle-circle {
+    background: green;
+    left: calc(100% - 4px);
+    transform: translateX(-100%);
+    animation-name: slideOn;
+  }
+  
+  @keyframes slideOn {
+    0% {
+      background: red;
+      width: 62px;
+      left: 4px;
+      transform: translateX(0%);
+    }
+    
+    60% {
+      background: red;
+      width: calc(100% - 8px);
+      left: 4px;
+      transform: translateX(0%);
+    }
+    
+    60.001% {
+      background: red;
+      width: calc(100% - 8px);
+      left: calc(100% - 4px);
+      transform: translateX(-100%);
+    }
+    
+    100% {
+      background: green;
+      width: 62px;
+      left: calc(100% - 4px);
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes slideOff {  
+    0% {
+      background: green;
+      width: 62px;
+      left: calc(100% - 4px);
+      transform: translateX(-100%);
+    }
+    
+    60% {
+      background: green;
+      width: calc(100% - 8px);
+      left: calc(100% - 4px);
+      transform: translateX(-100%);
+    }
+    
+    60.001% {
+      background: green;
+      width: calc(100% - 8px);
+      left: 4px;
+      transform: translateX(0%);
+    }
+    
+    100% {
+      background: red;
+      width: 62px;
+      left: 4px;
+      transform: translateX(0%);
+    }
+  }

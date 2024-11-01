@@ -1,0 +1,51 @@
+table, th, td {
+    border: 1px solid black; border-collapse: collapse;
+}
+h3{
+    padding-left: 250px;
+    font-size: 20px;
+    font-style: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    text-decoration: underline;
+
+}
+.row{
+    background-color: rgba(91, 91, 189, 0.672);
+}
+#csf{
+    background-color: rgba(255, 52, 52, 0.595);
+}
+#sda{
+    background-color: rgba(255, 192, 203, 0.869);
+}
+#dzo{
+    background-color: rgba(255, 255, 0, 0.638);
+}
+#sys{
+    background-color: rgba(255, 166, 0, 0.65);
+}
+#mat{
+    background-color: rgba(0, 255, 255, 0.636);
+}
+#sem{
+    background-color: rgba(34, 139, 34, 0.685);
+}
+#day{
+    font-weight: bold;
+}
+.all{
+    width: 710px;
+    height: 280px;
+    padding-left: 50px;
+    padding-top: 3px;
+    background-color: rgba(255, 160, 160, 0.478);
+    border-radius: 25px;
+}
+th, td{
+    border: 1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}

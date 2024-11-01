@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reusable Card Component</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+  <div id="header">
+    <h1>Reusable Card Component</h1>
+
+    <div class="card">
+      <div class="card-header">
+        <h2>Information and Technology</h2>
+      </div>
+      <div class="card-content">
+        <img id="background" src="bg 1.avif" alt="backgroundpic">
+        <img class="card-img" src="King.jpg" alt="Profile" style="width: 50%;">
+        <h3 class="card-title">Karma</h3>
+        <p class="card-subtitle">Software Engineer</p>
+        <P class="card-text">Department of IT</P>
+      </div>
+      <div class="card-footer">
+        <button onclick="showMoreInfo('Karma')">More Info</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <h2>Accounts</h2>
+      </div>
+      <div class="card-content">
+        <img id="background" src="bg 2.jpg" alt="backgroundpic">
+      <img class="card-img" src="Queen.jpg" alt="Profile" style="width: 50%">
+      <h3 class="card-title">Yeshey</h3>
+      <p class="card-subtitle">Accountant</p>
+      <P class="card-text">Department of Accounts</P>
+      </div>
+      <div class="card-footer">
+        <button onclick="showMoreInfo('Yeshey')">More Info</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  </header>
+</body>
+</html>
