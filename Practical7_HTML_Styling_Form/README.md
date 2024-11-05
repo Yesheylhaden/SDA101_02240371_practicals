@@ -22,6 +22,7 @@ Style form inputs consistently, including on focus states.
 Make the submit button stand out.
 
 ## Project Overview
+
 This form is designed for my personal use in a college setting to help streamline the process of reporting room maintenance issues. While it serves an educational purpose, I want to emphasize that it is not an official tool for the college. By collecting information through this form, I can ensure that maintenance requests are logged accurately, making it easier for the college to address these issues in a timely manner. My goal is to create a more efficient system for reporting problems that arise in campus facilities.
 
 ## Features
