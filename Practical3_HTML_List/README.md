@@ -12,12 +12,22 @@ This personal HTML webpage project of mine gives insight into keeping track of m
 Overall, this webpage is a convenient all-in-one planner for my college life. Having everything in one place allows me instantly to determine my schedule, what needs to be done, and if I am maintaining the pace of each course in this format. Very simple setup, but it makes quite a difference in helping me stay organized and productive.
 
 ## Table of Contents
+- [Assignment Question](#assignment-question)
 - [Project Structure](#project-structure)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Customization](#customization)
 
----
+### Assignment Question
+1. List
+Create an HTML page with the following components:
+
+An unordered list of your courses for the semester.
+* An ordered list of your daily class schedule (Monday to Friday).
+* An unordered list of your to-do items for the week (at least 7 items).
+* A nested list showing your study goals:
+* Main topics (unordered list)
+* Subtopics for each main topic (ordered lists)
 
 ### Project Structure
 
