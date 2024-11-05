@@ -1,4 +1,4 @@
-# College Schedule and To-Do List
+# College Schedule and To-Do List.
 
 This personal HTML webpage project of mine gives insight into keeping track of my college schedule, assignments, and study goals. It was designed to keep everything in one place concerning classes and facilitate the process of staying on top of daily and weekly tasks easily. Having my course list, class schedule, and to-do items all in one place allows me to focus more on my studies and spend less time worrying about what needs to be done.
 
@@ -11,14 +11,16 @@ This personal HTML webpage project of mine gives insight into keeping track of m
 
 Overall, this webpage is a convenient all-in-one planner for my college life. Having everything in one place allows me instantly to determine my schedule, what needs to be done, and if I am maintaining the pace of each course in this format. Very simple setup, but it makes quite a difference in helping me stay organized and productive.
 
-## Table of Contents
+## Table of Contents:
+
 - [Assignment Question](#assignment-question)
 - [Project Structure](#project-structure)
 - [Features](#features)
 - [Getting Started](#getting-started)
 - [Customization](#customization)
 
-### Assignment Question
+### Assignment Question:
+
 1. List
 Create an HTML page with the following components:
 
@@ -29,7 +31,7 @@ An unordered list of your courses for the semester.
 * Main topics (unordered list)
 * Subtopics for each main topic (ordered lists)
 
-### Project Structure
+### Project Structure:
 
 The HTML file consists of several main sections:
 1. **Course List**: A list of courses that I am enrolled in this semester.
@@ -37,7 +39,7 @@ The HTML file consists of several main sections:
 3. **To-Do List**: Daily to do list for good study habits.
 4. **Study Goals**: Specific study goals and assignments for each subject.
 
-### Features
+### Features:
 
 - **Systematically Structured Course List**: Formatted as a bulleted list, for easier reference.
 - **Class Schedule**: Listed as a numbered list, with each day of the week separated.
@@ -45,23 +47,23 @@ The HTML file consists of several main sections:
 - **Detailed Study Objectives** - detailed list of tasks for each class, with further subtasks to enable more specific tracking.
 
 
-### Getting Started
+### Getting Started:
 
 1. Clone or download this repository.
 2. Open `index.html` in a web browser to view the schedule and to-do list.
 3. Customize the CSS file (`list.css`) to adjust the style as needed.
 
-### Customization
+### Customization:
 
 - **Course List**: Add or remove items from the course list `<ul>` in the `div.course` section.
 - **Schedule**: Modify the schedule for each day in the `<ol>` within the `div.Schedule` section.
 - **To-Do List**: Update the daily tasks in the `div.do` section as needed.
 - **Study Goals**: Customize the goals for each course in the `div.goals` section.
 
-### Example CSS
+### Example CSS:
 
 A `list.css` file is linked to this HTML file. Customize the CSS to change the appearance of each section (e.g., background colors, fonts, layout) to suit your preference.
 
-### License
+### License:
 
 This is a personal HTML page designed exclusively for personal use in managing my very unique college schedule, daily tasks, and study goals. Given the highly personal nature of the content—speaking specifically of classes, assignments, and goals—it is not intended for open-source distribution or public use. This setup allows me to freely customize it to fit my changing academic needs, assuring that the information is private and tailored just for my routine without having to fit it for general use.
