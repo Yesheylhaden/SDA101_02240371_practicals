@@ -13,8 +13,6 @@ It is a simple reusable card component that displays basic information for profi
 - [Customization](#customization)
 - [License](#license)
 
----
-
 ### Overview
 
 This is a simple HTML/CSS/JavaScript layout that uses reusable card components for profiles, team members, etc. Each of these cards represents a person with a profile image, a background, and an informative button.
