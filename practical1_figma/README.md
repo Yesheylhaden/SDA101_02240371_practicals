@@ -1,7 +1,8 @@
-## Personal Profile in Figma:
-https://www.figma.com/design/tB7xj8sRX85X3Qkh3iRfjD/Personal-Profile?node-id=0-1&m=dev&t=jDLTG5VDSneiFzFq-1
+## Personal Profile in Figma.
+https://www.figma.com/design/6YyJnMe0gFcmqySEQl30aN/Untitled?node-id=0-1&m=dev&t=WzywL4PodqCocxFS-1
 
-# Project overview
+# Project overview:
+
 The aim of this project is the development of a personal profile depicting myself by way of background, education, skills, and key life experiences. I will be sharing my interests, taking the time to reflect on significant moments in my life, and outlining some future goals. In this manner, the profile shall outline the journey thus far and what I hope to become.
 
 ## Table of Contents:
@@ -13,7 +14,28 @@ The aim of this project is the development of a personal profile depicting mysel
 5. [Acknowledgements](#acknowledgements)
 
 ## Installation:
+To install Figma, follow these steps:
 
+1. **Visit Figma's Website:**
+   - Go to [https://www.figma.com/](https://www.figma.com/).
+
+2. **Create an Account (if you don't have one yet):**
+   - Click on **Sign Up** at the top right and fill in your details to create an account.
+   - If you already have an account, click on **Log In** and enter your credentials.
+
+3. **Download Figma Desktop App (optional, for offline use):**
+   - Once logged in, hover over your profile picture on the top right.
+   - Click on **Download Figma Desktop App** from the drop-down menu.
+   - Choose your operating system (macOS or Windows) and download the installer.
+
+4. **Install the App:**
+   - For **Windows**: Open the downloaded file and follow the installation prompts.
+   - For **macOS**: Open the `.dmg` file and drag the Figma app to the Applications folder.
+
+5. **Start Using Figma:**
+   - After installation, you can open the Figma app and log in with your account credentials.
+
+Alternatively, you can use Figma directly in your browser without installing anything by visiting [https://www.figma.com/](https://www.figma.com/).
 
 ## Usage:
 To access Figma, the user will go to [figma.com](https://figma.com) and log in with their account credentials. Once logged in, they’ll open the designated file from their dashboard. With the file open, the user can interact with the design, run inputs, and generate the output or preview they need.
@@ -28,10 +50,10 @@ In Figma, after logging in, the user will locate the specific file on their dash
 
 ## Technologies used:
 1. Auto layout.
-2. Frames
-3. pem-tools
+2. Frames.
+3. PEN-tools.
 4. Text Style.
 5. Prototyping.
 
-## Ackmowledgement:
+## Acknowledgement:
 Getting such hands-on experiences has been a blessing; they really help in developing my creative thinking and instill confidence in me. These practical opportunities have enabled me to put into practice what I learned, think out of the box, and enhance my problem-solving capabilities. I am particularly grateful to my tutor because his commitment to making sure of such relevant and practical learning experiences has made a lasting difference in my development. It has further encouraged me to push beyond my boundaries, explore new ideas, and realize the essence of practical knowledge in shaping my future.
