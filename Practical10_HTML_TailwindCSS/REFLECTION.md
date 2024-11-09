@@ -3,10 +3,13 @@ In this project, I created three distinct webpages: a navigation bar for a colle
 
 #### Main Concepts Applied
 
-HTML Structure: I reinforced my understanding of semantic HTML by organizing content into meaningful elements such as <nav>, <section>, <header>, <main>, and <footer>. This structure not only improves accessibility but also enhances SEO.
-Tailwind CSS: Utilizing Tailwind CSS was a significant aspect of this project. It allowed me to quickly implement responsive designs and create visually appealing elements without extensive custom CSS. I learned to use various classes for styling, spacing, and layout adjustments, which streamlined my workflow.
-Responsive Design: I focused on creating responsive layouts, particularly in the photo gallery section. By using Tailwind's grid system, I ensured that images adjusted seamlessly across different screen sizes, enhancing the user experience on mobile devices.
-Micro-interactions: The inclusion of hover effects and transitions in the button added a layer of interactivity. I learned how these subtle animations can significantly improve user engagement and provide immediate feedback.
+* HTML Structure: I reinforced my understanding of semantic HTML by organizing content into meaningful elements such as <nav>, <section>, <header>, <main>, and <footer>. This structure not only improves accessibility but also enhances SEO.\
+
+* Tailwind CSS: Utilizing Tailwind CSS was a significant aspect of this project. It allowed me to quickly implement responsive designs and create visually appealing elements without extensive custom CSS. I learned to use various classes for styling, spacing, and layout adjustments, which streamlined my workflow.
+
+* Responsive Design: I focused on creating responsive layouts, particularly in the photo gallery section. By using Tailwind's grid system, I ensured that images adjusted seamlessly across different screen sizes, enhancing the user experience on mobile devices.
+
+* Micro-interactions: The inclusion of hover effects and transitions in the button added a layer of interactivity. I learned how these subtle animations can significantly improve user engagement and provide immediate feedback.
 Things Learned
 
 #### Through this project, I deepened my understanding of web development fundamentals. I learned how to:
